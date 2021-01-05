@@ -9,7 +9,7 @@ string_array = []
 while row_index < src.count do 
   column_index = 0 
   while column_index < src[row_index].count do 
-    if src[row_index][column_index].kind_of?(string)
+    if src[row_index][column_index].kind_of?(String)
       string_array.push(src[row_index][column_index])
     end
     column_index += 1 
