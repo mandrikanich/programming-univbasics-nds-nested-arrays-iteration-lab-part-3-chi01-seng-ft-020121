@@ -14,4 +14,10 @@ while row_index < src.count do
   string_array
 end
   
-join_nested_strings
+join_nested_strings(mixed_data_1)
+
+mixed_data_1 = [
+  ["The", 4, "quick"],
+  [-1, "brown", "fox", 30],
+  ["studied", 101, 233, "Ruby"]
+]
