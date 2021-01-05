@@ -13,7 +13,7 @@ while row_index < src.count do
   row_index += 1 
   string_array
 end
-  
+ end 
 join_nested_strings(mixed_data_1)
 
 mixed_data_1 = [
