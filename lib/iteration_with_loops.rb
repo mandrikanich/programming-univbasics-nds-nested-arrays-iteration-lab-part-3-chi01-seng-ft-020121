@@ -14,3 +14,4 @@ while row_index < src.count do
   string_array
 end
   
+join_nested_strings
